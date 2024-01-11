@@ -1,0 +1,107 @@
+
+<link rel="stylesheet" href="styles.css">
+<script src="index.js"></script>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SELENE</title>
+    <style>
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .navbar img {
+            width: 45px;
+            height: 45px;
+            margin-right: 100px;
+        }
+        .navbar a {
+            margin-right: 10px;
+        }
+        .navbar .signup-button {
+            background-color: black;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 0 10px;
+        }
+        .content-section1 {
+            background-image: url("section1.avif");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .content-section2 {
+            background-image: url("section2.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .content-section {
+            background-image: url("section3.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            text-align: center;
+        }
+        .content-link a {
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#"><img src="logo.png" alt="Logo"></a>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Our Services</a>
+        <a href="#">Offerings</a>
+        <a href="#" class="signup-button">Sign Up</a>
+    </div>
+    
+    <div class="content-section1">
+        <h2>Our Mission</h2>
+        <p>Content goes here...</p>
+    </div>
+    
+    <div class="content-section2 right-text" style="text-align: right; padding-right: 70px"> 
+        <h2>Why us</h2>
+        <p>Content goes here...</p>
+    </div>
+    
+    <div class="content-section center-text">
+        <h2>Get started</h2>
+        <p>Content goes here...</p>
+        <div class="content-link">
+            <a href="#">Learn more</a>
+        </div>
+    </div>
+    
+    <div class="info-section">
+        <div>
+            <h2>Contact Us</h2>
+            <p>Contact information goes here...</p>
+        </div>
+        <div>
+            <h2>Social Links</h2>
+            <p>Social links go here...</p>
+        </div>
+        <div>
+            <h2>Blogs</h2>
+            <p>Blogs go here...</p>
+        </div>
+    </div>
+    
+    <button class="chat-section" onclick="toggleChatBox()">
+        <span>Chat</span>
+    </button>
+    
+    <div class="chat-box" id="chatBox">
+        <h2>Chat here</h2>
+        <p>Chat messages go here...</p>
+    </div>
+    
+    <script>
+        
+    </script>
+</body>
+</html>
